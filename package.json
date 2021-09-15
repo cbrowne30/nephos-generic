@@ -6,12 +6,18 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "static": "rm -rf .next && next build && next export"
   },
   "dependencies": {
+    "@auth0/auth0-react": "^1.7.0",
+    "grommet": "^2.17.5",
+    "grommet-icons": "^4.6.2",
     "next": "11.1.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "styled-components": "^5.3.1",
+    "webp-loader": "^0.6.0"
   },
   "devDependencies": {
     "@types/react": "17.0.20",
